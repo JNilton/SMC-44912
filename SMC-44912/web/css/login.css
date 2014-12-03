@@ -1,0 +1,100 @@
+/* =============================================================
+   GENERAL STYLES
+ ============================================================ */
+body {
+          background-color:#91F5F5;
+       
+}
+
+.p-set
+{
+    padding-top:120px;
+     line-height:30px;
+     color:#171717;
+     font-size:16px;
+}
+.hr-set {
+    border-top:1px solid rgba(0, 0, 0, 0)!important;
+    margin-bottom:20px;
+}
+.hr-set-two {
+    border-top:1px solid rgba(0, 0, 0, 0.05)!important;
+    margin-bottom:5px;
+}
+/* =============================================================
+   SIDE MENU STYLES
+ ============================================================ */
+
+#side-menu {
+    height:100%;
+    position:fixed;
+    top:-1000px;
+    left:-250px;
+    background-color:#CF2545;
+    color:#fff;
+    z-index:999;
+    overflow:auto;
+    max-width:500px;
+
+}
+ #side-menu ul {
+        list-style:none;
+        padding:0px;
+    }
+
+        #side-menu ul li {
+          border-bottom:1px solid rgba(95, 87, 88, 0.2);
+padding: 20px 25px;
+display:inline-block;
+        }
+         #side-menu ul li a i {
+             padding-right:10px;
+        }
+
+            #side-menu ul li a,#side-menu ul li a:hover {
+                color:#fff;
+                text-decoration:none;
+font-size: 16px;
+            }
+  
+.logo-text {
+    padding: 20px 30px;
+cursor: pointer;
+font-size:20px;
+font-weight:900;
+
+}
+.menu-close-icon {
+    padding:0px 10px;
+    cursor: pointer;
+    color:#F7F7F7;
+    font-size:25px;
+  
+}
+.menu-open-icon {
+    cursor:pointer;
+    color:#171717;
+    padding:20px 30px;
+     padding:20px 25px;
+     position:fixed;
+}
+.intro-txt {
+    padding:20px;
+}
+
+
+/* =============================================================
+   Login
+ ============================================================ */
+
+.prettyline {
+  height: 5px;
+  border-top: 0;
+  background: #c4e17f;
+  border-radius: 5px;
+}
+
+
+/* =============================================================
+   Outras Coisas aê
+ ============================================================ */
